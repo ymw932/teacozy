@@ -6,9 +6,6 @@ body {
   background-color: black;
   margin: 0px;
   text-align: center;
-}
-
-body {
   display: block;
 }
 
@@ -26,16 +23,18 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   background-color: black;
+
 }
 
 header img {
   height: 50px;
-  margin-left: 10px
+  padding-left: 10px;
 }
 
 nav {
   text-align: right;
   flex-grow: 1;
+  display: block;
 }
 
 nav span {
@@ -52,26 +51,24 @@ nav a {
 
 .main-content {
   padding-top: 69px;
-    opacity: 0.9;
-    width: 1200px;
-    margin: auto;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
 }
 
 #mission {
   background-image: url(../image/img-mission-background.jpg);
   height: 700px;
   padding-top: 70px;
-
 }
 
 #mission .content {
   margin: auto;
   background-color: black;
   width: 100%;
-
 }
 
-h2 ,h4 {
+h2, h4, h3 {
   margin: 0;
   padding: 10px;
 }
@@ -103,3 +100,29 @@ h2 ,h4 {
 }
 
 /* Bottom */
+
+#locations {
+  background-image: url(../image/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+}
+
+#locations .container {
+  width: 1100px;
+  margin: auto;
+}
+
+.location {
+  display: flex;
+  padding: 10px;
+  background-color: black;
+  margin: 5px 20px;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 280px;
+}
+
+footer {
+  text-align: left;
+  padding: 40px 60px;
+}
